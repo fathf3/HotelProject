@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = null;
+}
+
+@await Html.PartialAsync("/Views/AdminLayout/HeadPartialView.cshtml")
+
+<body>
+
+
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+
+    <div id="main-wrapper">
+
+      
+        @await Html.PartialAsync("/Views/AdminLayout/NavbarPartialView.cshtml")
+        
+        @await Html.PartialAsync("/Views/AdminLayout/SideBarPartialView.cshtml")
+
+        <div class="content-body">
+
+           
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #/ container -->
+        </div>
+
+        @await Html.PartialAsync("/Views/AdminLayout/FooterPartialView.cshtml")
+
+    </div>
+
+    @await Html.PartialAsync("/Views/AdminLayout/ScriptsPartialView.cshtml")
+
+</body>
+
+</html>

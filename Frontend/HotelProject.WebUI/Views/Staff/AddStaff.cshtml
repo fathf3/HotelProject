@@ -1,0 +1,19 @@
+﻿@model AddStaffViewModel
+@{
+    ViewData["Title"] = "AddStaff";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<h1 style="text-align:center">Personel Ekle</h1>
+
+<form method="post">
+    <label>Personel Adı</label>
+    <input type="text" asp-for="StaffFirstName" class="form-control mb-2" />
+    <label>Personel Soyadı</label>
+    <input type="text" asp-for="StaffLastName" class="form-control mb-2" />
+    <label>Personel Unvan</label>
+    <input type="text" asp-for="StaffTitle" class="form-control mb-2" />
+
+    <button class="btn mb-1 btn-rounded btn-outline-secondary">Kaydet</button>
+</form>
+

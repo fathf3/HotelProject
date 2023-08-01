@@ -1,0 +1,50 @@
+﻿@model List<TestimonialViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Referanslar</h4>
+            <div class="table-responsive">
+                <table class="table table-bordered verticle-middle">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Ad Soyad</th>
+                            <th scope="col">Unvan</th>
+                            <th scope="col">Resim</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TestimonialID</td>
+                                <td>@item.TestimonialName</td>
+                                <td>@item.TestimonialTitle</td>
+                                <td>@item.TestimonialImage</td>
+                                <td>
+                                    <span class="mr-3">
+                                        <a asp-action="UpdateStaff" asp-route-id="@item.TestimonialID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Güncelle"><i class="fa fa-pencil color-muted m-r-5"></i> </a>
+                                    </span>
+                                    <span class="mr-3">
+                                        <a asp-action="DeleteStaff" asp-route-id="@item.TestimonialID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sil"><i class="fa fa-close color-danger"></i></a>
+                                    </span>
+                                    <span class="mr-3">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Detaylar"><i class="fa fa-file  color-danger"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+                <a asp-action="AddTestimonial" class="btn mb-1 btn-rounded btn-outline-info">Yeni Yorum Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>

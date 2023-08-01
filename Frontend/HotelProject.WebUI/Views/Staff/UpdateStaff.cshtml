@@ -1,0 +1,18 @@
+﻿@model UpdateStaffViewModel
+@{
+    ViewData["Title"] = "UpdateStaff";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="StaffID" />
+    <label>Personel Adı</label>
+    <input type="text" asp-for="StaffFirstName" class="form-control mb-2" />
+    <label>Personel Soyadı</label>
+    <input type="text" asp-for="StaffLastName" class="form-control mb-2" />
+    <label>Personel Unvan</label>
+    <input type="text" asp-for="StaffTitle" class="form-control mb-2" />
+
+    <button class="btn mb-1 btn-rounded btn-outline-secondary">Güncelle</button>
+</form>
+
