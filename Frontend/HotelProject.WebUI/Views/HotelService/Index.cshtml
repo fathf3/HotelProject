@@ -29,10 +29,10 @@
                                 <td>@item.HotelServiceDescription</td>
                                 <td>
                                     <span class="mr-3">
-                                        <a asp-action="UpdateStaff" asp-route-id="@item.HotelServiceID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Güncelle"><i class="fa fa-pencil color-muted m-r-5"></i> </a>
+                                        <a asp-action="UpdateHotelService" asp-route-id="@item.HotelServiceID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Güncelle"><i class="fa fa-pencil color-muted m-r-5"></i> </a>
                                     </span>
                                     <span class="mr-3">
-                                        <a asp-action="DeleteStaff" asp-route-id="@item.HotelServiceID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sil"><i class="fa fa-close color-danger"></i></a>
+                                        <a asp-action="DeleteHotelService" asp-route-id="@item.HotelServiceID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sil"><i class="fa fa-close color-danger"></i></a>
                                     </span>
                                     <span class="mr-3">
                                         <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Detaylar"><i class="fa fa-file  color-danger"></i></a>
@@ -43,7 +43,7 @@
                     </tbody>
 
                 </table>
-                <a asp-action="AddStaff" class="btn mb-1 btn-rounded btn-outline-info">Yeni Hizmet Ekle</a>
+                <a asp-action="AddHotelService" class="btn mb-1 btn-rounded btn-outline-info">Yeni Hizmet Ekle</a>
             </div>
         </div>
     </div>

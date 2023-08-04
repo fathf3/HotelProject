@@ -12,5 +12,6 @@ namespace HotelProject.EntityLayer.Concrete
         public string StaffFirstName { get; set; }
         public string StaffLastName { get; set; }
         public string StaffTitle { get; set; }
+        public string StaffImage { get; set; }
     }
 }

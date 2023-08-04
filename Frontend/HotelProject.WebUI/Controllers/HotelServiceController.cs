@@ -31,15 +31,15 @@ namespace HotelProject.WebUI.Controllers
             }
             return View();
         }
-
+        [HttpGet]
         public async Task<IActionResult> AddHotelService()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> AddStaff(CreateHotelServiceDTO createHotelService)
+        public async Task<IActionResult> AddHotelService(CreateHotelServiceDTO createHotelService)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View();
             }
@@ -54,9 +54,48 @@ namespace HotelProject.WebUI.Controllers
             return View();
         }
 
+        public async Task<IActionResult> DeleteHotelService(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.DeleteAsync(link+id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
 
+        [HttpGet]
+        public async Task<IActionResult> UpdateHotelService(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync(link + id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<UpdateHotelServiceDTO>(jsonData);
+                return View(values);
+            }
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> UpdateHotelService(UpdateHotelServiceDTO model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(model);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync(link, content);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
 
-
+            return View();
+        }
 
 
     }

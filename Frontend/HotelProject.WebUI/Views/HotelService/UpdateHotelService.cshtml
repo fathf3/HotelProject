@@ -1,0 +1,18 @@
+﻿@model UpdateHotelServiceDTO
+@{
+    ViewData["Title"] = "UpdateHotelService";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="HotelServiceID" />
+    <label>Hizmet İkon</label>
+    <input type="text" asp-for="HotelServiceIcon" class="form-control mb-2" />
+    <label>Hizmet Başlık</label>
+    <input type="text" asp-for="HotelServiceTitle" class="form-control mb-2" />
+    <label>Hizmet Açıklama</label>
+    <input type="text" asp-for="HotelServiceDescription" class="form-control mb-2" />
+
+    <button class="btn mb-1 btn-rounded btn-outline-secondary">Güncelle</button>
+</form>
+
