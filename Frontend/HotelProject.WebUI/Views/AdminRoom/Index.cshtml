@@ -1,0 +1,55 @@
+﻿@model List<ResultRoomDTO>
+@{
+    ViewData["Title"] = "AddRoom";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Otel Oda Listesi </h4>
+            <div class="table-responsive">
+                <table class="table table-bordered verticle-middle">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Oda Adı</th>
+                            <th scope="col">Oda Numara</th>
+                            <th scope="col">Wifi</th>
+                            <th scope="col">Fiyat</th>
+
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.RoomID</td>
+                                <td>@item.RoomTitle</td>
+                                <td>@item.RoomNumber</td>
+                                <td>@item.RoomWifi</td>
+                                <td>@item.RoomPrice</td>
+
+                                <td>
+                                    <span class="mr-3">
+                                        <a asp-action="UpdateRoom" asp-route-id="@item.RoomID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Güncelle"><i class="fa fa-pencil color-muted m-r-5"></i> </a>
+                                    </span>
+                                    <span class="mr-3">
+                                        <a asp-action="DeleteRoom" asp-route-id="@item.RoomID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sil"><i class="fa fa-close color-danger"></i></a>
+                                    </span>
+                                    <span class="mr-3">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Detaylar"><i class="fa fa-file  color-danger"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+                <a asp-action="AddRoom" class="btn mb-1 btn-rounded btn-outline-info">Yeni Oda Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -18,6 +18,8 @@ namespace HotelProject.BusinessLayer.Concretes
             _bookingDal = bookingDal;
         }
 
+       
+
         public void TDelete(Booking t)
         {
             _bookingDal.Delete(t);

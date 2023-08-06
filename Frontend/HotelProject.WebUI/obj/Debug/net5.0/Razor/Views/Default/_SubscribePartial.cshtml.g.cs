@@ -103,8 +103,22 @@ using HotelProject.WebUI.DTOs.TestimonialDTO;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.DTOs.ContactDTO;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.DTOs.GuestDTO;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"068a16a7e9e501a1a3fcdf55e9d1ab1a010e77b7", @"/Views/Default/_SubscribePartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"697670f297a11907a4146e67e2161da109b6e15b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"95af8a1fc70e705e39138561069b43b6951462f9", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Default__SubscribePartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -137,7 +151,7 @@ using HotelProject.WebUI.DTOs.TestimonialDTO;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "068a16a7e9e501a1a3fcdf55e9d1ab1a010e77b76801", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "068a16a7e9e501a1a3fcdf55e9d1ab1a010e77b77255", async() => {
                 WriteLiteral(@"
     <div class=""container newsletter mt-5 wow fadeIn"" data-wow-delay=""0.1s"" style=""visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;"">
         <div class=""row justify-content-center"">

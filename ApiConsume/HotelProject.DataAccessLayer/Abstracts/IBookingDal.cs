@@ -9,5 +9,6 @@ namespace HotelProject.DataAccessLayer.Abstracts
 {
     public interface IBookingDal : IGenericDal<Booking>
     {
+       
     }
 }

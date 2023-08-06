@@ -25,19 +25,19 @@ namespace HotelProject.WebUI.Controllers
         }
 
         [HttpGet]
-        public PartialViewResult _AddBooking()
+        public PartialViewResult AddBooking()
         {
             return PartialView();
         }
         [HttpPost]
-        public async Task<IActionResult> _AddBooking(CreateBookingDTO createBookingDTO)
+        public async Task<IActionResult> AddBooking(CreateBookingDTO createBookingDTO)
         {
             createBookingDTO.Status = "Onay Bekliyor";
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(createBookingDTO);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync(link, stringContent);
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Default");
         }
 
 

@@ -3,8 +3,11 @@ using HotelProject.EntityLayer.Concrete;
 using HotelProject.WebUI.DTOs.AboutDTO;
 using HotelProject.WebUI.DTOs.AppUserDTO;
 using HotelProject.WebUI.DTOs.BookingDTO;
+using HotelProject.WebUI.DTOs.ContactDTO;
+using HotelProject.WebUI.DTOs.GuestDTO;
 using HotelProject.WebUI.DTOs.HotelServiceDTO;
 using HotelProject.WebUI.DTOs.LoginDTO;
+using HotelProject.WebUI.DTOs.RoomDTO;
 using HotelProject.WebUI.DTOs.StaffDTO;
 using HotelProject.WebUI.DTOs.SubscribeDTO;
 using HotelProject.WebUI.DTOs.TestimonialDTO;
@@ -21,8 +24,16 @@ namespace HotelProject.WebUI.Mapping
             
             CreateMap<ResultAboutDTO, About>().ReverseMap();
             CreateMap<UpdateAboutDTO, About>().ReverseMap();
-            
-            
+            CreateMap<CreateAboutDTO, About>().ReverseMap();
+
+            CreateMap<ResultRoomDTO, Room>().ReverseMap();
+            CreateMap<UpdateRoomDTO, Room>().ReverseMap();
+            CreateMap<CreateRoomDTO, Room>().ReverseMap();
+
+            CreateMap<ResultGuestDTO, Guest>().ReverseMap();
+            CreateMap<UpdateGuestDTO, Guest>().ReverseMap();
+            CreateMap<CreateGuestDTO, Guest>().ReverseMap();
+
             CreateMap<ResultTestimonialDTO, Testimonial>().ReverseMap();
             
             
@@ -30,9 +41,11 @@ namespace HotelProject.WebUI.Mapping
 
 
             CreateMap<CreateSubscribeDTO, Subscribe>().ReverseMap();
-
+            CreateMap<CreateContactDTO, Contact>().ReverseMap();
 
             CreateMap<CreateBookingDTO, Booking>().ReverseMap();
+            CreateMap<ResultBookingDTO, Booking>().ReverseMap();
+            CreateMap<ApprovedReservationDTO, Booking>().ReverseMap();
 
 
             CreateMap<CreateNewUserDTO, AppUser>().ReverseMap();

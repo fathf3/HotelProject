@@ -1,0 +1,52 @@
+﻿@model List<ResultGuestDTO>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Müşteri Listesi</h4>
+            <div class="table-responsive">
+                <table class="table table-bordered verticle-middle">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Müşteri</th>
+                            <th scope="col">Mail</th>
+                            <th scope="col">Şehir</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.GuestID</td>
+                                <td>@item.Name</td>
+                                <td>@item.SurName</td>
+                                <td>@item.City</td>
+                                
+                                <td>
+                                    <span class="mr-3">
+                                        <a asp-action="UpdateGuest" asp-route-id="@item.GuestID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Güncelle"><i class="fa fa-pencil color-muted m-r-5"></i> </a>
+                                    </span>
+                                    <span class="mr-3">
+                                        <a asp-action="DeleteGuest" asp-route-id="@item.GuestID" data-toggle="tooltip" data-placement="top" title="" data-original-title="Sil"><i class="fa fa-close color-danger"></i></a>
+                                    </span>
+                                    <span class="mr-3">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Detaylar"><i class="fa fa-file  color-danger"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+                <a asp-action="AddGuest" class="btn mb-1 btn-rounded btn-outline-info">Yeni Müşteri Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+
