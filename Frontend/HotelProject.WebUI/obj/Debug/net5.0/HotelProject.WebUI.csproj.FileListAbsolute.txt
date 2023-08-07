@@ -209,3 +209,13 @@ C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bi
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\Inbox.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\SideBarAdminContactPartial.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\SideBarAdminContactCategoryPartial.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\Sendbox.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\AddSendMessage.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\MailKit.dll
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\MimeKit.dll
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\NETCore.MailKit.dll
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminMail\Index.cshtml.g.cs

@@ -22,6 +22,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,8 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DTOs\MailDTO\" />
     <Folder Include="Models\AppUser\" />
     <Folder Include="ValidationRules\RoomValidationRules\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

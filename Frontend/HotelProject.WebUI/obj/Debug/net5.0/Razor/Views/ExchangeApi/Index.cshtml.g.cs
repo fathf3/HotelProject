@@ -118,6 +118,13 @@ using HotelProject.WebUI.DTOs.GuestDTO;
 #line hidden
 #nullable disable
 #nullable restore
+#line 16 "C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Models.Mail;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\Views\ExchangeApi\Index.cshtml"
 using HotelProject.WebUI.Models.Api;
 
@@ -125,7 +132,7 @@ using HotelProject.WebUI.Models.Api;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f7b172879e823b48d5ad5f2d9d3f745f8c71553a", @"/Views/ExchangeApi/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"95af8a1fc70e705e39138561069b43b6951462f9", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a8c852eb7ada5d7f0bf8ac265b7256724cffb3c4", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_ExchangeApi_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ExchangeViewModel.Exchange_Rates>>
     #nullable disable

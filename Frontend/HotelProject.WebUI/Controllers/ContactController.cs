@@ -17,9 +17,6 @@ namespace HotelProject.WebUI.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        
-
-
         [HttpGet]
         public IActionResult Index()
         {
