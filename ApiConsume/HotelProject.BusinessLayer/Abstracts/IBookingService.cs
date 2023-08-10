@@ -11,5 +11,10 @@ namespace HotelProject.BusinessLayer.Abstracts
     {
         int GetBookingCount();
         List<Booking> Last6Bookinng();
+        void TBookingStatusChangeApproved3(int id);
+        void TBookingStatusChangeCancel(int id);
+        void TBookingStatusChangeWait(int id);
+        void TBookingStatusChangeApproved(Booking booking);
+        void TBookingStatusChangeApproved2(int id);
     }
 }

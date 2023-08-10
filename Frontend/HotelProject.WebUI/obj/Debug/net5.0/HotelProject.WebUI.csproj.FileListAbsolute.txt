@@ -231,3 +231,6 @@ C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\ob
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRole\Index.cshtml.g.cs
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRole\AddRole.cshtml.g.cs
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRole\UpdateRole.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoleAssign\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoleAssign\AssignRole.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\BookingAdmin\UpdateBooking.cshtml.g.cs

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.WebUI.Controllers
 {
-    [AllowAnonymous]
+    
     public class AdminRoleController : Controller
     {
         private readonly RoleManager<AppRole> _roleManager;
