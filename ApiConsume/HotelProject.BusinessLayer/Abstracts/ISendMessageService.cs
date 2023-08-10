@@ -9,5 +9,6 @@ namespace HotelProject.BusinessLayer.Abstracts
 {
     public interface ISendMessageService : IGenericService<SendMessage>
     {
+        public int TGetSendMessageCount();
     }
 }

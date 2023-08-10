@@ -9,6 +9,7 @@ namespace HotelProject.BusinessLayer.Abstracts
 {
     public interface IBookingService : IGenericService<Booking>
     {
-        
+        int GetBookingCount();
+        List<Booking> Last6Bookinng();
     }
 }

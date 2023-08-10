@@ -9,5 +9,6 @@ namespace HotelProject.BusinessLayer.Abstracts
 {
     public interface IContactService : IGenericService<Contact>
     {
+        public int TGetContactCount();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using HotelProject.WebUI.Models.Testimonial;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class TestimonialController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

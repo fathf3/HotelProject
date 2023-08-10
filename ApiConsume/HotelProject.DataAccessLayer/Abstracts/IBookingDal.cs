@@ -9,6 +9,7 @@ namespace HotelProject.DataAccessLayer.Abstracts
 {
     public interface IBookingDal : IGenericDal<Booking>
     {
-       
+        int GetBookingCount();
+        List<Booking> Last6Bookinng();
     }
 }

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.WebUI.Controllers
 {
+    
     public class AdminAboutController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

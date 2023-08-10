@@ -119,13 +119,20 @@ using HotelProject.WebUI.DTOs.GuestDTO;
 #nullable disable
 #nullable restore
 #line 16 "C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.DTOs.WorkLocationDTO;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 17 "C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
 using HotelProject.WebUI.Models.Mail;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6eda37137a087d1138316f1fcfd92a0e10496acf", @"/Views/AdminAbout/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a8c852eb7ada5d7f0bf8ac265b7256724cffb3c4", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4b03d9128025d8c5cb2b4401064c27aff938883b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_AdminAbout_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ResultAboutDTO>>
     #nullable disable
@@ -229,7 +236,7 @@ using HotelProject.WebUI.Models.Mail;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                                \r\n                                <td>\r\n                                    <span class=\"mr-3\">\r\n                                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6eda37137a087d1138316f1fcfd92a0e10496acf11570", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6eda37137a087d1138316f1fcfd92a0e10496acf11803", async() => {
                 WriteLiteral("<i class=\"fa fa-pencil color-muted m-r-5\"></i> ");
             }
             );
@@ -264,7 +271,7 @@ using HotelProject.WebUI.Models.Mail;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    </span>\r\n                                    <span class=\"mr-3\">\r\n                                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6eda37137a087d1138316f1fcfd92a0e10496acf14307", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6eda37137a087d1138316f1fcfd92a0e10496acf14540", async() => {
                 WriteLiteral("<i class=\"fa fa-close color-danger\"></i>");
             }
             );

@@ -53,6 +53,13 @@ namespace HotelProject.WebApiConsume.Controllers
             return Ok(values);
         }
 
+        [HttpGet("GetSendMessageCount")]
+        public IActionResult GetContactCount()
+        {
+
+            return Ok(_sendMessageService.TGetSendMessageCount());
+        }
+
 
     }
 }

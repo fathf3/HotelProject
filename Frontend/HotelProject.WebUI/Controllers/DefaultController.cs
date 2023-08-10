@@ -2,6 +2,7 @@
 using HotelProject.WebUI.DTOs.AppUserDTO;
 using HotelProject.WebUI.DTOs.HotelServiceDTO;
 using HotelProject.WebUI.DTOs.SubscribeDTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

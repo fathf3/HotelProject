@@ -6,9 +6,11 @@ using System.Collections.Generic;
 using HotelProject.WebUI.Models.Api;
 using Newtonsoft.Json;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HotelProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class ExchangeApiController : Controller
     {
         

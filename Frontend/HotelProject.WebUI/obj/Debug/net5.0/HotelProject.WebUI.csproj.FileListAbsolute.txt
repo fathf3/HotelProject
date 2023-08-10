@@ -219,3 +219,15 @@ C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bi
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\NETCore.MailKit.dll
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminMail\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminImageFile\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\ErrorPage\Error404.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminUser\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\WorkLocation\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_DashboardWidgetPartial\Default.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_DashboardLast6Bookings\Default.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\MessageDetailsByInbox.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminContact\MessageDetailsBySendbox.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRole\Index.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRole\AddRole.cshtml.g.cs
+C:\Users\fatih\Documents\Code\CSharp\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRole\UpdateRole.cshtml.g.cs

@@ -62,6 +62,12 @@ namespace HotelProject.WebApiConsume
             services.AddScoped<ISendMessageDal, EfSendMessageDal>();
             services.AddScoped<ISendMessageService, SendMessageManager>();
 
+            services.AddScoped<IMessageCategoryDal, EfMessageCategoryDal>();
+            services.AddScoped<IMessageCategoryService, MessageCategoryManager>();
+
+            services.AddScoped<IWorkLocationDal, EfWorkLocationDal>();
+            services.AddScoped<IWorkLocationService, WorkLocationManager>();
+
             services.AddAutoMapper(typeof(Startup));
 
 
